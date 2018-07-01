@@ -347,10 +347,10 @@ static Connection conn;
       //sent email
       try{
             String host ="smtp.gmail.com" ;
-            String user = "bilalahmed03@ucp.edu.pk";
-            String pass = "db09399256";
+            String user = "user email address";
+            String pass = "user passoword";
             String to = record.email;
-            String from = "bilalahmed03@ucp.edu.pk";
+            String from = "sender email address";
             String subject = "This is To Inform You that U have an Important "+record.title+" event today ";
             String messageText = record.desc;
             boolean sessionDebug = false;
